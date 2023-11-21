@@ -1,0 +1,16 @@
+.custom-product-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.custom-product-block img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-product-block h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
